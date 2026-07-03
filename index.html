@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Espero que te guste tu regalo, Pinocha ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Corazones flotando -->
+    <div id="hearts"></div>
+
+    <!-- ========================= -->
+    <!-- PANTALLA 1 -->
+    <!-- ========================= -->
+
+    <section class="screen active" id="screen1">
+
+        <div class="content">
+
+            <h1 id="tituloPrincipal"></h1>
+
+            <p id="subtituloPrincipal"></p>
+
+            <button class="heartButton" onclick="nextScreen()">
+                ❤️
+            </button>
+
+            <p class="small">
+                Pulsa el corazón para empezar
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- PANTALLA 2 -->
+    <!-- ========================= -->
+
+    <section class="screen" id="screen2">
+
+        <div class="content">
+
+            <h2 id="titulo2"></h2>
+
+            <img id="foto2" class="mainPhoto">
+
+            <p id="texto2"></p>
+
+            <button onclick="nextScreen()">
+                Continuar ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- PANTALLA 3 -->
+    <!-- ========================= -->
+
+    <section class="screen" id="screen3">
+
+        <div class="content">
+
+            <h2 id="titulo3"></h2>
+
+            <img id="foto3" class="mainPhoto">
+
+            <p id="texto3"></p>
+
+            <button onclick="nextScreen()">
+                Continuar ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- PANTALLA 4 -->
+    <!-- ========================= -->
+
+    <section class="screen" id="screen4">
+
+        <div class="content">
+
+            <h2 id="titulo4"></h2>
+
+            <img id="foto4" class="mainPhoto">
+
+            <p id="texto4"></p>
+
+            <button onclick="nextScreen()">
+                Continuar ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- PANTALLA 5 -->
+    <!-- ========================= -->
+
+    <section class="screen" id="screen5">
+
+        <div class="content">
+
+            <h2>
+                Nuestros recuerdos más bonitos ❤️
+            </h2>
+
+            <div class="carousel">
+
+                <img id="carouselImage">
+
+                <p id="carouselText"></p>
+
+            </div>
+
+            <button onclick="nextScreen()">
+                Continuar ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- PANTALLA 6 -->
+    <!-- ========================= -->
+
+    <section class="screen" id="screen6">
+
+        <div class="content">
+
+            <h2>
+                Lo que más me gusta de ti ❤️
+            </h2>
+
+            <div id="frases"></div>
+
+            <button onclick="nextScreen()">
+                Leer mi carta 💌
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- PANTALLA 7 -->
+    <!-- ========================= -->
+
+    <section class="screen" id="screen7">
+
+        <div class="content carta">
+
+            <h2>
+                Mi carta para ti 💌
+            </h2>
+
+            <div id="carta"></div>
+
+            <button onclick="nextScreen()">
+                Llegar al final ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- PANTALLA 8 -->
+    <!-- ========================= -->
+
+    <section class="screen" id="screen8">
+
+        <div class="content final">
+
+            <h1>
+                Gracias por formar parte de mi vida ❤️
+            </h1>
+
+            <p id="mensajeFinal"></p>
+
+            <div class="bigHeart">
+                ❤️
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="datos.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
